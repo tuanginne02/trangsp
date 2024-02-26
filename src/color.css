@@ -1,0 +1,58 @@
+/* tailwind css  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* font family */
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* icon  */
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+/* custom style  */
+.c-link {
+  @apply text-primary bg-primary4 mt-10 w-brandCard h-brandCard rounded-2xl border-4 border-white flex items-center pl-1 pr-5 pt-cusXY pb-cusXY transition
+    duration-200
+    ease-in;
+}
+
+.c-card {
+  @apply transition duration-200  ease-in cursor-pointer flex items-center bg-white text-primary rounded-xl border-transparent border-4 h-card w-card mx-4 px-2 py-2;
+}
+.c-cardMs {
+  @apply transition duration-200  ease-in cursor-pointer flex items-center  bg-white text-primary rounded-3xl border-transparent border-4  w-cardMs mx-4 px-2 py-2;
+}
+.c-cardSms {
+  @apply transition duration-200  ease-in cursor-pointer flex-col items-center justify-center bg-primary text-white rounded-3xl border-transparent border-4  w-cardSms h-cardSms mx-4 px-2 py-2;
+}
+.c-cardSmss {
+  @apply transition duration-200  ease-in cursor-pointer flex-col items-center justify-center bg-primary text-white rounded-3xl border-transparent border-2  w-cardSmss h-cardSmss mx-4 px-2 py-2;
+}
+.c-cardSmssW {
+  @apply transition duration-200  ease-in cursor-pointer flex-col items-center justify-center bg-white text-primary rounded-3xl border-transparent border-4  w-cardSmssW h-cardSmssW;
+}
+.c-cardCombo {
+  @apply transition duration-200  ease-in cursor-pointer flex-col items-center justify-center bg-white rounded-3xl border-transparent border-4  w-cardSms mx-4 px-2 py-2;
+}
+
+.text-shadow {
+  text-shadow: 3px 0 rgba(245, 72, 106, 1), -3px 0 rgba(245, 72, 106, 1),
+    0 3px rgba(245, 72, 106, 1), 0 -3px rgba(245, 72, 106, 1),
+    2px 2px rgba(245, 72, 106, 1), -2px -2px rgba(245, 72, 106, 1),
+    2px -2px rgba(245, 72, 106, 1), -2px 2px rgba(245, 72, 106, 1);
+}
+
+.input-text input[type="text"] {
+  width: 100%;
+  text-align: center;
+}
+.input-check input:checked ~ .checkmark {
+  background-color:  rgba(245, 72, 106, 1);
+}
+
+.element.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+}

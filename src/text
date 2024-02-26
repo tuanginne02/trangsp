@@ -1,0 +1,45 @@
+/* left main bar  */
+/* width: 139px;
+height: 1043px;
+padding-bottom: 463px; */
+/* logo  */
+/* width: 738px;
+height: 738px; */
+
+/* 
+    fix: shadow form đăng kí
+    fix: w-h feeback liên hệ 
+    fix: ảnh Nguồn cảm hứng
+    fix: sidebar position fixed: position fixed: position fixed - right: 0 - background-color: white - height: 100% content: padding-right: 140px - delete flex-1 
+    ------------------------------------------------------------
+
+    py-20 : câu nói thương hiệu
+    w-sidebar: delete 
+    sidebar right all position: abaoi 
+    container: bg-primary: pr-36
+    footer - and childe -1 : z-50
+    update-img brand: w-32 
+*/
+
+/* fix card main page 
+    anh 6rem
+    text xl and sm
+    card: w-160px h-210px
+*/
+
+/* finnall 
+    Cam hung sang tao
+    Tin tuc 9x
+    Tin Chinh
+    Dang ky 
+    Dang ky ma
+    Page lien he
+*/
+
+/* !finnall 
+    Trang sp
+    Trng ban hang
+    Trng mua hang
+    Main Page
+
+*/
